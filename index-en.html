@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linkou CGMH Burn Center</title>
-  <meta name="description" content="Linkou Chang Gung Burn Center, integrating AI and clinical burn care for innovative research and applications.">
+  <meta name="description" content="Linkou CGMH Burn Center provides professional burn care and reconstruction with a multidisciplinary team, dedicated to patient health and recovery.">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
@@ -157,6 +157,7 @@
       gap: 2rem;
       margin-top: 3rem;
     }
+    .service-features-grid { grid-template-columns: repeat(2, 1fr); }
 
     .research-card {
       background: white;
@@ -298,7 +299,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: var(--primary-color);
+        background-color: #CFD6C4;
         flex-direction: column;
         padding: 1rem 0;
         box-shadow: var(--shadow);
@@ -316,16 +317,27 @@
       .nav-menu a {
         display: block;
         padding: 0.5rem 0;
+        color: #5A6659;
+      }
+      .nav-menu a:hover {
+        color: #5A6659;
       }
 
       .nav-menu .language-switch {
         display: inline-block;
         margin: 0.5rem 2rem;
         padding: 0.5rem 1rem;
-        border: 1px solid white;
+        border: 1px solid #5A6659;
         border-radius: 20px;
         text-align: center;
         width: calc(100% - 4rem);
+        color: #5A6659;
+        background: transparent;
+        transition: all 0.3s;
+      }
+      .nav-menu .language-switch:hover {
+        background: #5A6659;
+        color: #CFD6C4;
       }
 
       .mobile-menu-btn {
@@ -347,6 +359,7 @@
       .research-grid {
         grid-template-columns: 1fr;
       }
+      .service-features-grid { grid-template-columns: 1fr !important; }
 
       .team-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -363,7 +376,10 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">Linkou CGMH Burn Center</a>
+      <a href="#" class="logo">
+        <img src="images/logos/CGMH Logo.svg" alt="CGMH Logo" style="height: 2.2rem; vertical-align: middle; margin-right: 0.6rem; display: inline-block;">
+        Linkou CGMH Burn Center
+      </a>
       <ul class="nav-menu">
         <li><a href="#about">About Us</a></li>
         <li><a href="#team">Team</a></li>

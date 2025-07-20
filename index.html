@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>林口長庚燒燙傷中心</title>
-  <meta name="description" content="林口長庚燒燙傷中心">
+  <meta name="description" content="林口長庚燒燙傷中心，專業提供燒燙傷急重症照護與重建服務，結合跨專業團隊，守護病患健康。">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
@@ -68,6 +68,7 @@
       border: 1px solid var(--primary-color);
     }
     .research-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
+    .service-features-grid { grid-template-columns: repeat(2, 1fr); }
     .research-card { background: white; padding: 2rem; border-radius: 10px; box-shadow: var(--shadow); transition: transform 0.3s; }
     .research-card:hover { transform: translateY(-5px); }
     .research-card h3 { color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem; }
@@ -91,16 +92,33 @@
     .footer-bottom { border-top: 1px solid #444; padding-top: 2rem; color: #ccc; }
     p { color: #2B2B2B; }
     @media (max-width: 768px) {
-      .nav-menu { display: none; position: absolute; top: 100%; left: 0; width: 100%; background-color: var(--primary-color); flex-direction: column; padding: 1rem 0; box-shadow: var(--shadow); }
+      .nav-menu { display: none; position: absolute; top: 100%; left: 0; width: 100%; background-color: #CFD6C4; flex-direction: column; padding: 1rem 0; box-shadow: var(--shadow); }
       .nav-menu.active { display: flex; }
       .nav-menu li { margin: 0; padding: 0.5rem 2rem; }
-      .nav-menu a { display: block; padding: 0.5rem 0; }
-      .nav-menu .language-switch { display: inline-block; margin: 0.5rem 2rem; padding: 0.5rem 1rem; border: 1px solid white; border-radius: 20px; text-align: center; width: calc(100% - 4rem); }
+      .nav-menu a { display: block; padding: 0.5rem 0; color: #5A6659; }
+      .nav-menu a:hover { color: #5A6659; }
+      .nav-menu .language-switch {
+        display: inline-block;
+        margin: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
+        border: 1px solid #5A6659;
+        border-radius: 20px;
+        text-align: center;
+        width: calc(100% - 4rem);
+        color: #5A6659;
+        background: transparent;
+        transition: all 0.3s;
+      }
+      .nav-menu .language-switch:hover {
+        background: #5A6659;
+        color: #CFD6C4;
+      }
       .mobile-menu-btn { display: block; }
       .hero h1 { font-size: 2.5rem; }
       .section-title { font-size: 2rem; }
       .container { padding: 0 1rem; }
       .research-grid { grid-template-columns: 1fr; }
+      .service-features-grid { grid-template-columns: 1fr !important; }
       .team-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
       .contact-info { grid-template-columns: 1fr; }
       #new-section .research-grid, .service-features-grid { grid-template-columns: 1fr !important; }
@@ -111,7 +129,10 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">林口長庚燒燙傷中心</a>
+      <a href="#" class="logo">
+        <img src="images/logos/CGMH Logo.svg" alt="CGMH Logo" style="height: 2.2rem; vertical-align: middle; margin-right: 0.6rem; display: inline-block;">
+        林口長庚燒燙傷中心
+      </a>
       <ul class="nav-menu">
         <li><a href="#about">關於我們</a></li>
         <li><a href="#team">團隊成員</a></li>
@@ -131,7 +152,7 @@
     <section class="hero">
       <div class="container">
         <h1>林口長庚燒燙傷中心</h1>
-        <p>從創傷走向重生，燒燙傷醫療的全人照護<br>從台灣走向世界，開創燒燙傷學術新篇章</p>
+        <p>從創傷走向重生，燒燙傷醫療全人照護<br>從台灣走向世界，開創燒燙傷學術篇章</p>
         <a href="#research" class="cta-button">了解更多</a>
       </div>
     </section>
