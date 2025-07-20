@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CGMH Burn Center VDI Lab</title>
-  <meta name="description" content="CGMH Burn Center VDI Lab, focusing on innovative research combining AI and clinical burn care.">
+  <title>Linkou CGMH Burn Center</title>
+  <meta name="description" content="Linkou Chang Gung Burn Center, integrating AI and clinical burn care for innovative research and applications.">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
     :root {
-      --primary-color: #3ea35b;
-      --primary-dark: #2d7a44;
+      --primary-color: #657166;
+      --primary-dark: #657166;
       --secondary-color: #f8f9fa;
       --text-color: #333;
       --text-light: #666;
@@ -39,7 +39,7 @@
 
     /* Navigation */
     .navbar {
-      background-color: var(--primary-color);
+      background-color: #CFD6C4;
       padding: 1rem 0;
       position: fixed;
       top: 0;
@@ -54,12 +54,7 @@
       align-items: center;
     }
 
-    .logo {
-      color: white;
-      font-size: 1.5rem;
-      font-weight: 700;
-      text-decoration: none;
-    }
+    .logo { color: #3B453D; font-size: 1.5rem; font-weight: 700; text-decoration: none; }
 
     .nav-menu {
       display: flex;
@@ -67,31 +62,15 @@
       gap: 2rem;
     }
 
-    .nav-menu a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transition: opacity 0.3s;
-    }
+    .nav-menu a { color: #5A6659; text-decoration: none; font-weight: 500; transition: opacity 0.3s; }
 
     .nav-menu a:hover {
       opacity: 0.8;
     }
 
-    .language-switch {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      padding: 0.5rem 1rem;
-      border: 1px solid white;
-      border-radius: 20px;
-      transition: all 0.3s;
-    }
+    .language-switch { color: #5A6659; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border: 1px solid #5A6659; border-radius: 20px; transition: all 0.3s; }
 
-    .language-switch:hover {
-      background-color: white;
-      color: var(--primary-color);
-    }
+    .language-switch:hover { background-color: #5A6659; color: #CFD6C4; }
 
     .mobile-menu-btn {
       display: none;
@@ -137,37 +116,38 @@
 
     /* Hero Section */
     .hero {
-      background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-      color: white;
+      background: #fff;
+      color: var(--primary-color);
       text-align: center;
       padding: 8rem 0;
     }
-
     .hero h1 {
       font-size: 3.5rem;
       font-weight: 700;
       margin-bottom: 1rem;
+      color: #3B453D;
     }
-
     .hero p {
       font-size: 1.3rem;
       margin-bottom: 2rem;
       opacity: 0.9;
+      color: var(--primary-color);
     }
-
     .cta-button {
       display: inline-block;
-      background-color: white;
-      color: var(--primary-color);
+      background-color: var(--primary-color);
+      color: white;
       padding: 1rem 2rem;
       text-decoration: none;
       border-radius: 50px;
       font-weight: 600;
-      transition: transform 0.3s;
+      transition: transform 0.3s, background 0.3s, color 0.3s;
     }
-
     .cta-button:hover {
       transform: translateY(-2px);
+      background-color: white;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
     }
 
     /* Research Cards */
@@ -382,11 +362,12 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">CGMH Burn Center VDI Lab</a>
+      <a href="#" class="logo">Linkou CGMH Burn Center</a>
       <ul class="nav-menu">
         <li><a href="#about">About Us</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#new-section">Service</a></li>
         <li><a href="#research">Research</a></li>
-        <li><a href="#team">Members</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="index.html" class="language-switch">中文</a></li>
@@ -401,9 +382,9 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <h1>CGMH Burn Center<br>Visual-Driven Intelligence Lab</h1>
-        <p>Combining AI and clinical burn intensive care, driving innovative medical research and precision applications</p>
-        <a href="#research" class="cta-button">Learn more</a>
+        <h1>Linkou CGMH Burn Center</h1>
+        <p>From Trauma to Recovery, Holistic Care in Burn Medicine<br>From Taiwan to the World, Opening a New Chapter in Burn Research</p>
+        <a href="#research" class="cta-button">Learn More</a>
       </div>
     </section>
 
@@ -411,16 +392,47 @@
     <section id="about" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">About VDI Lab</h2>
-          <p class="section-subtitle" style="margin-top: 0.5rem;">Visual Intelligence for Smarter Intensive Burn Care</p>
+          <h2 class="section-title">About Us</h2>
         </div>
         <div style="max-width: 900px; margin: 0 auto; text-align: left;">
           <p style="font-size: 1.1rem; line-height: 1.8;">
-            CGMH Burn Center Visual-Driven Intelligence Lab (VDI Lab) was established in 2025 by the Linkou CGMH Burn Center, National Yang Ming Chiao Tung University, and Chang Gung University AI teams. The lab is dedicated to developing clinical applications that combine visual image analysis, natural language processing, multimodal AI models, and visual question answering technologies.
+            Linkou CGMH Burn Center was founded in 1978 by Dr. Samuel Noordhoff. Initially, it had 20 beds and was the largest burn unit in Taiwan. Now, the center has expanded to 30 beds, including a dedicated ICU and four attending physicians. The center features 21 acute intensive care isolation beds, 9 subacute burn beds, 2 independent operating rooms, a hydrotherapy and dressing room, 3 sand beds, and 3 air beds. Each bed is equipped with emergency equipment, monitors, and intercoms; every room has a ceiling-mounted TV, calendar, clock, and bathroom, providing patients with the best care environment.
           </p>
           <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 2em;">
-            Our research focuses on automated assessment of burn area and depth, inhalation injury risk prediction, integrated analysis of medical records and images, and the development of clinical intelligent decision support systems. Our goal is to create practical AI tools to enhance the precision, efficiency, and humanization of burn care.
+            The center holds regular multidisciplinary team meetings every week, involving physicians, nurses, nutritionists, physical therapists, occupational therapists, respiratory therapists, and social workers, and provides health education for families. In addition, we collaborate with foundations such as the Sunshine Foundation to hold seminars, offering comprehensive support for patients and families. Linkou CGMH Burn Center is currently the largest and best-equipped burn center in Taiwan, dedicated to providing high-quality, holistic burn care.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="new-section" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Service</h2>
+          <p class="section-subtitle">Four Core Services of Comprehensive Burn Care</p>
+        </div>
+        <div class="research-grid" style="grid-template-columns: repeat(2, 1fr);">
+          <div class="research-card">
+            <i class="fas fa-procedures"></i>
+            <h3>Acute Burn Intensive Care</h3>
+            <p>24-hour dedicated burn care team, advanced ICU and emergency facilities, from on-site rescue and emergency management to inpatient care, providing comprehensive, immediate, and high-quality critical care for burn patients.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-hand-holding-medical"></i>
+            <h3>Scar Reconstruction</h3>
+            <p>Personalized reconstructive surgery, laser therapy, and rehabilitation programs for burn sequelae and chronic scars, helping patients improve appearance and function, and enhance quality of life and confidence.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-smile"></i>
+            <h3>Oculonasal Reconstruction</h3>
+            <p>Specializing in eye, nose, and facial plastic and reconstructive surgery, combining advanced surgical techniques and aesthetics to restore function and natural appearance, rebuilding confidence and social ability.</p>
+          </div>
+          <div class="research-card">
+            <i class="fas fa-hand-paper"></i>
+            <h3>Hand and Joint Reconstruction</h3>
+            <p>For hand burns, trauma, or joint contractures, we provide microsurgery, joint reconstruction, and functional rehabilitation to help patients regain hand mobility and independence in daily life.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -430,59 +442,94 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Research</h2>
-          <p class="section-subtitle">Our research covers all important aspects of burn medicine</p>
+          <p class="section-subtitle">Covering all important aspects of burn medicine</p>
         </div>
         <div class="research-grid">
           <div class="research-card">
-            <i class="fas fa-camera"></i>
-            <h3>AI-based TBSA & Depth Recognition</h3>
-            <p>Using deep learning to automatically analyze burn area (TBSA) and depth, providing objective and precise assessment to assist physicians in treatment planning.</p>
+            <i class="fas fa-brain"></i>
+            <h3>Visual-driven Burn Analysis and Prediction</h3>
+            <p>Integrating AI and medical imaging analysis to develop automated burn area and depth recognition systems, assisting physicians in rapid and accurate assessment, predicting treatment outcomes, and enhancing clinical decision-making and care quality.</p>
           </div>
           <div class="research-card">
-            <i class="fas fa-lungs"></i>
-            <h3>Inhalation Injury Risk Prediction</h3>
-            <p>Building models to predict inhalation injury risk, enabling early identification and preventive treatment for high-risk patients, reducing complications.</p>
+            <i class="fas fa-cubes"></i>
+            <h3>3D-Printed Nasal Reconstruction</h3>
+            <p>Utilizing 3D printing and personalized medical design to create custom nasal reconstruction solutions for patients with defects or deformities, combining precision surgery and aesthetics to restore nasal appearance and function, and improve confidence and quality of life.</p>
           </div>
           <div class="research-card">
-            <i class="fas fa-tint"></i>
-            <h3>Blood Product & Surgical Outcome Analysis</h3>
-            <p>Analyzing the relationship between blood product use and surgical outcomes, optimizing transfusion strategies to improve success rates and reduce complications.</p>
+            <i class="fas fa-hand-scissors"></i>
+            <h3>Customized Finger Extension Device Reconstruction</h3>
+            <p>For hand burns or trauma causing extension dysfunction, we develop customized extension devices and reconstructive surgery, combined with rehabilitation training, to help patients regain hand mobility and independence in daily life.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Members -->
+    <!-- Great Team -->
     <section id="team" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Members</h2>
-          <p class="section-subtitle">Interdisciplinary team combining medicine and engineering</p>
+          <h2 class="section-title">Great Team</h2>
         </div>
         <div class="team-grid">
           <div class="team-member">
+            <img src="images/team/JYYang.jpg" alt="Dr. Jui-Yung Yang">
+            <h3>J.Y. Yang, MD</h3>
+            <p>Consultant Attending</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/SSChaung.jpg" alt="Dr. Hsiu-Shu Chuang">
+            <h3>S.S. Chuang, MD</h3>
+            <p>Consultant Attending</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/TYLin.jpg" alt="Dr. Yu-Te Lin">
+            <h3>Y.T. Lin, MD</h3>
+            <p>Director, Department of Surgery</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/CIYen.jpg" alt="Dr. Cheng-Yi Yen">
+            <h3>C.I. Yen, MD</h3>
+            <p>Chief, General Plastic Surgery</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/SYChang.jpg" alt="Dr. Shu-Yin Chang">
+            <h3>S.Y. Chang, MD</h3>
+            <p>Chief, Burn Center</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/CHTsai.jpg" alt="Dr. Chia-Hsuan Tsai">
+            <h3>C.H. Tsai, MD</h3>
+            <p>Education Committee</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/SIYang.jpg" alt="Dr. Shih-Yi Yang">
+            <h3>S.Y. Yang, MD</h3>
+            <p>Burn Center Physician</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/SHMao.png" alt="Dr. Shih-Hsuan Mao">
+            <h3>S.H. Mao, MD</h3>
+            <p>Physician Scientist</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
+            <img src="images/team/SHKwon.jpg" alt="Dr. Xiu-He Kwon">
+            <h3>S.H. Kwon, MD</h3>
+            <p>Burn Center Physician</p>
+            <p>—</p>
+          </div>
+          <div class="team-member">
             <img src="images/team/CJHuang.jpg" alt="Dr. Chih-Jung Huang">
-            <h3>Chih-Jung Huang</h3>
-            <p>Plastic Surgeon</p>
-            <p>Burn Intensive Care, Data Science</p>
-          </div>
-          <div class="team-member">
-            <img src="images/team/YJLin.jpg" alt="Dr. Ying-Chia Lin">
-            <h3>Ying-Chia Lin</h3>
-            <p>Ph.D. in Computer Science</p>
-            <p>Natural Language, Large Language Models</p>
-          </div>
-          <div class="team-member">
-            <img src="images/team/IFChang.jpg" alt="Prof. Yi-Fang Chang">
-            <h3>Yi-Fang Chang</h3>
-            <p>Professor of Biomedical Informatics</p>
-            <p>Medical Image Analysis</p>
-          </div>
-          <div class="team-member">
-            <img src="images/team/WCChen.jpg" alt="Wei-Chun Chen">
-            <h3>Wei-Chun Chen</h3>
-            <p>Biomedical Informatics</p>
-            <p>Master's Student</p>
+            <h3>C.J. Huang, MD</h3>
+            <p>Burn Center Physician</p>
+            <p>—</p>
           </div>
         </div>
       </div>
@@ -493,12 +540,24 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Publications</h2>
-          <p class="section-subtitle">Our research is published in internationally renowned journals</p>
+          <p class="section-subtitle">Research results published in internationally renowned journals</p>
         </div>
         <ul class="publication-list">
           <li class="publication-item">
+            <div class="publication-title">Stack versus te technique for central slip reconstruction during vascularized toe proximal interphalangeal joint transfer</div>
+            <div class="publication-authors">C Peng, CH Lee, YT Lin, et al. Plastic and Reconstructive Surgery. 2024;154(3):508e-513e.</div>
+          </li>
+          <li class="publication-item">
+            <div class="publication-title">Alar Crease Creation Suture in Nasal Reconstruction</div>
+            <div class="publication-authors">Yen C-I, Huang C-J, Chang C-S, et al. Plast Reconstr Surg. 2024 Feb 1;153(2):478-481.</div>
+          </li>
+          <li class="publication-item">
+            <div class="publication-title">Risk factors for postoperative adverse airway events in patients with primary oral cancer undergoing reconstruction without prophylactic tracheostomy</div>
+            <div class="publication-authors">Tsai C-H, Liu Y-C, Kao H-K, et al. Asian J Surg. 2024 Apr;47(4):1763-1768.</div>
+          </li>
+          <li class="publication-item">
             <div class="publication-title">Machine learning approach for predicting inhalation injury in patients with burns</div>
-            <div class="publication-authors">Yang SY, Huang CJ, Yen CI, et al. Burns. 2023;49(7):1592-1601. doi:10.1016/j.burns.2023.03.011</div>
+            <div class="publication-authors">Yang SY, Huang CJ, Yen CI, et al. Burns. 2023;49(7):1592-1601.</div>
           </li>
         </ul>
       </div>
@@ -509,7 +568,7 @@
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Contact Us</h2>
-          <p class="section-subtitle">Welcome to contact us and jointly promote the development of burn AI medicine</p>
+          <p class="section-subtitle">Contact us and join us in advancing burn care together.</p>
         </div>
         <div class="contact-info">
           <div class="contact-item">
@@ -520,12 +579,12 @@
           <div class="contact-item">
             <i class="fas fa-phone"></i>
             <h3>Phone</h3>
-            <p>+886-3-328-1200 ext. 8123</p>
+            <p>+886-3-328-1200 ext. 2881</p>
           </div>
           <div class="contact-item">
             <i class="fas fa-map-marker-alt"></i>
             <h3>Address</h3>
-            <p>No. 5, Fuxing St., Guishan Dist.,<br>Taoyuan City, Taiwan</p>
+            <p>No. 5, Fuxing St., Guishan Dist.,<br>Taoyuan City 333, Taiwan<br>Linkou CGMH Burn Center</p>
           </div>
         </div>
       </div>
@@ -537,15 +596,16 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
-          <h3>CGMH Burn Center VDI Lab</h3>
-          <p>Dedicated to combining artificial intelligence with clinical burn care, advancing innovative medical research and applications.</p>
+          <h3>Linkou CGMH Burn Center</h3>
+          <p style="color: #ccc;">Dedicated to clinical burn care, promoting innovative research and applications.</p>
         </div>
         <div class="footer-section">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#research">Research Areas</a></li>
-            <li><a href="#team">Research Team</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#new-section">Service</a></li>
+            <li><a href="#research">Research</a></li>
             <li><a href="#publications">Publications</a></li>
           </ul>
         </div>
@@ -553,13 +613,13 @@
           <h3>Contact Information</h3>
           <ul>
             <li>Email: <a href="mailto:cgmh.burncenter@gmail.com" style="color: #ccc; text-decoration: none;">cgmh.burncenter@gmail.com</a></li>
-            <li>Phone: +886-3-328-1200 ext. 8123</li>
-            <li>Address: No. 5, Fuxing St., Guishan Dist., Taoyuan City</li>
+            <li>Phone: +886-3-328-1200 ext. 2881</li>
+            <li>Address: No. 5, Fuxing St., Guishan Dist.,<br>Taoyuan City 333, Taiwan<br>Linkou CGMH Burn Center</li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 CGMH Burn Center VDI Lab. All rights reserved.</p>
+        <p style="color: #ccc;">&copy; 2025 Linkou CGMH Burn Center. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -604,11 +664,7 @@
     // Navbar scroll effect
     window.addEventListener('scroll', function() {
       const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 100) {
-        navbar.style.backgroundColor = 'rgba(62, 163, 91, 0.95)';
-      } else {
-        navbar.style.backgroundColor = '#3ea35b';
-      }
+      navbar.style.backgroundColor = '#CFD6C4';
     });
   </script>
 </body>
